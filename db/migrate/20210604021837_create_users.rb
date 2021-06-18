@@ -8,7 +8,7 @@ class CreateUsers < ActiveRecord::Migration[6.1]
       t.integer :weight
       t.integer :age
       t.integer :bodyfat
-      t.iteger :bmi
+      t.integer :bmi
 
       t.timestamps
     end
