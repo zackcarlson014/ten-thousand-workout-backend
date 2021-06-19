@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
 
-  wrap_parameters :user, include: [:username, :password, :bio, :prof_pic_url]
+  wrap_parameters :user, include: [:username, :firstname, :lastname, :height, :weight, :age, :bodyfat, :bmi, :password]
 
   def index
       users = User.all
