@@ -1,4 +1,4 @@
-class UsersController < ApplicationController
+class Api::V1::UsersController < ApplicationController
 
   wrap_parameters :user, include: [:username, :firstname, :lastname, :height, :weight, :age, :bodyfat, :bmi, :password]
 

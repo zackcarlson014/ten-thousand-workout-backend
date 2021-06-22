@@ -1,3 +1,3 @@
-class ExerciseSetsController < ApplicationController
+class Api::V1::ExerciseSetsController < ApplicationController
   
 end
