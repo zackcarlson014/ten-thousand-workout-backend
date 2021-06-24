@@ -3,5 +3,12 @@
 #
 # Examples:
 #
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+  MuscleGroup.create([
+    { name: 'Legs' }, 
+    { name: 'Back' },
+    { name: 'Shoulders' },
+    { name: 'Chest' },
+    { name: 'Core' },
+    { name: 'Arms' },
+  ])
+
