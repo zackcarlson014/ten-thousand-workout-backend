@@ -1,7 +1,7 @@
 class Api::V1::MuscleGroupsController < ApplicationController
 
   def index
-    muscle_groups = MuscleGroup.all
+    muscle_groups = MuscleGroup.all_groups
     render json: muscle_groups, except: [:created_at, :updated_at]
   end
 

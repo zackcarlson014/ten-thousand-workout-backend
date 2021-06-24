@@ -9,21 +9,30 @@
     { name: 'Shoulders' },
     { name: 'Chest' },
     { name: 'Core' },
-    { name: 'Arms' },
+    { name: 'Arms' }
   ])
 
-  Exercise.create({
-    {name: 'Dumbbell Squats', muscle_group_id: 1},
-    {name: 'Goblet Squats', muscle_group_id: 1},
-    {name: 'Air Squats', muscle_group_id: 1},
-    {name: 'Sumo Squats', muscle_group_id: 1},
-    {name: 'Pistol Squats', muscle_group_id: 1},
-    {name: 'Hip Bridges', muscle_group_id: 1},
-    {name: 'Calf Raises', muscle_group_id: 1},
-    {name: 'STLD', muscle_group_id: 1},
-    {name: 'Toe Raises', muscle_group_id: 1},
-    {name: 'Back Squats', muscle_group_id: 1},
-    {name: 'Back Squats', muscle_group_id: 1},
-    {name: 'Back Squats', muscle_group_id: 1},
-  })
+  Exercise.create([
+    { name: 'Dumbbell Squats', muscle_group_id: 1 },
+    { name: 'Goblet Squats', muscle_group_id: 1 },
+    { name: 'Air Squats', muscle_group_id: 1 },
+    { name: 'Sumo Squats', muscle_group_id: 1 },
+    { name: 'Pistol Squats', muscle_group_id: 1 },
+    { name: 'Bulgarian Split Squats', muscle_group_id: 1 },
+    { name: 'Hip Bridges', muscle_group_id: 1 },
+    { name: 'Calf Raises', muscle_group_id: 1 },
+    { name: 'STLDs', muscle_group_id: 1 },
+    { name: 'Lunges', muscle_group_id: 1 },
+    { name: 'Glute Bridges', muscle_group_id: 1 },
+    { name: 'Jump Squats', muscle_group_id: 1 },
+    { name: 'Pull-ups', muscle_group_id: 2 },
+    { name: 'Bentover Rows', muscle_group_id: 2 },
+    { name: 'One-Handed Bentover Rows', muscle_group_id: 2 },
+    { name: 'Standing Rows', muscle_group_id: 2 },
+    { name: 'Seated Rows', muscle_group_id: 2 },
+    { name: 'Lateral Raises', muscle_group_id: 3 },
+    { name: 'Overhead Presses', muscle_group_id: 3 },
+    { name: 'One Arm Clean n\' Jerks', muscle_group_id: 3 },
+    { name: 'HSPUs', muscle_group_id: 3 }
+  ])
 
