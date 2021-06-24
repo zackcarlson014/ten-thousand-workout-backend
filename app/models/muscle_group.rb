@@ -1,6 +1,8 @@
 class MuscleGroup < ApplicationRecord
 
   has_many :exercises
-  has_many :workouts
+
+  has_many :exercise_sets, through: :exercises
+
   
 end
