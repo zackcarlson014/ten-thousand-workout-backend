@@ -59,6 +59,16 @@
       image: 'https://i.vimeocdn.com/video/816682017_1280x720.jpg'
     },
     {
+      name: 'Toe Raises',
+      muscle_group_id: 1,
+      image: 'https://www.wikihow.com/images/thumb/a/a5/Do-Toe-Raises-Step-4.jpg/v4-460px-Do-Toe-Raises-Step-4.jpg.webp'
+    },
+    {
+      name: 'Toe Curls',
+      muscle_group_id: 1,
+      image: 'https://www.verywellfit.com/thmb/NwhIha1DfgX_LVwHU7FZa3aTYHs=/1414x1414/smart/filters:no_upscale()/GettyImages-1298857388-78d063c46e0f41b7b916b56e900d8eb3.jpg'
+    },
+    {
       name: 'SLDLs',
       muscle_group_id: 1,
       image: 'https://www.bodybuilding.com/exercises/exerciseImages/sequences/21/Male/m/21_1.jpg'
@@ -185,8 +195,43 @@
     },
     {
       name: 'Kettlebell Curls',
-      muscle_group_id: 56,
+      muscle_group_id: 6,
       image: 'https://scarysymptoms.com/wp-content/uploads/2021/01/Kettlebell-curl-Freepik.com-pressfoto-1-300x200.jpg'
+    },
+    {
+      name: 'Wrist Rollers',
+      muscle_group_id: 6,
+      image: 'https://www.bodybuilding.com/images/2019/august/the-barbell-wrist-roller-for-big-arms-and-serious-grip-2-700xh.jpg'
+    },
+    {
+      name: 'RB Forearm Curls',
+      muscle_group_id: 6,
+      image: 'https://www.performancehealthacademy.com/media/catalog/product/1/1/11-4595__082508_144024_4.jpg'
+    },
+    {
+      name: 'Dumbbell Forearm Curls',
+      muscle_group_id: 6,
+      image: 'https://www.bodybuilding.com/exercises/exerciseImages/sequences/384/Male/l/384_1.jpg'
+    },
+    {
+      name: 'Reverse Curls',
+      muscle_group_id: 6,
+      image: 'https://cdn.muscleandstrength.com/sites/default/files/standing-dumbbell-reverse-curl-1.jpg'
+    },
+    {
+      name: 'RB Tricep Pushdowns',
+      muscle_group_id: 6,
+      image: 'https://barbend.com/wp-content/uploads/2019/03/Triceps-Pushdown-Exericse-Guide-Set-Up-1011x1024.jpg'
+    },
+    {
+      name: 'Floor Dips',
+      muscle_group_id: 6,
+      image: 'https://i.ytimg.com/vi/Ji1Jus-2RY4/mqdefault.jpg'
+    },
+    {
+      name: 'Standing Tricep Extensions',
+      muscle_group_id: 6,
+      image: 'https://cdn.totalworkout.fitness/160725/exercise/1280/frame/10006.3.jpg'
     },
   ])
 
