@@ -54,6 +54,11 @@
       image: 'https://i.pinimg.com/originals/80/0e/a1/800ea183f412c5042692e72213df7c59.jpg'
     },
     {
+      name: 'Donkey Calf Raises',
+      muscle_group_id: 1,
+      image: 'https://i.vimeocdn.com/video/816682017_1280x720.jpg'
+    },
+    {
       name: 'SLDLs',
       muscle_group_id: 1,
       image: 'https://www.bodybuilding.com/exercises/exerciseImages/sequences/21/Male/m/21_1.jpg'
@@ -94,6 +99,11 @@
       image: 'https://www.muscleandfitness.com/wp-content/uploads/2019/12/MU1117_FE_GHUGE_020.jpg?quality=86&strip=all'
     },
     {
+      name: 'Dumbbell Shrugs',
+      muscle_group_id: 2,
+      image: 'https://cdn.muscleandstrength.com/sites/default/files/dumbbell-shrug.jpg'
+    },
+    {
       name: 'Lateral Raises',
       muscle_group_id: 3,
       image: 'https://cdn.muscleandstrength.com/sites/default/files/dumbbell-lateral-raise.jpg'
@@ -102,6 +112,11 @@
       name: 'Overhead Presses',
       muscle_group_id: 3,
       image: 'https://i.pinimg.com/originals/c2/a7/5e/c2a75e32977da37afd76746ccb52683f.jpg'
+    },
+    {
+      name: 'Lateral Flys',
+      muscle_group_id: 3,
+      image: 'https://cdn.muscleandstrength.com/sites/default/files/bent-over-rear-delt-raise-thumb.jpg'
     },
     {
       name: 'One Arm Clean n\' Jerks',
@@ -119,9 +134,14 @@
       image: 'https://nickatitley.files.wordpress.com/2013/08/push-up-beach.jpg'
     },
     {
-      name: 'Dumbbell Bench Press',
+      name: 'Dumbbell Bench',
       muscle_group_id: 4,
       image: 'https://cdn.shopify.com/s/files/1/0262/6351/9337/articles/Gavin_M_1200x1200.jpg?v=1565984882'
+    },
+    {
+      name: 'Decline Dumbbell Bench',
+      muscle_group_id: 4,
+      image: 'https://cdn.muscleandstrength.com/sites/default/files/decline-dumbbell-bench-press.jpg'
     },
     {
       name: 'Dumbbell Flys',
@@ -129,9 +149,44 @@
       image: 'https://cdn1.coachmag.co.uk/sites/coachmag/files/styles/insert_main_wide_image/public/2018/04/incline-dumbbell-flye.jpg?itok=bnzYc11V'
     },
     {
+      name: 'Decline Dumbbell Flys',
+      muscle_group_id: 4,
+      image: 'https://cdn.muscleandstrength.com/sites/default/files/decline-dumbbell-fly_0.jpg'
+    },
+    {
       name: 'Perfect Push-ups',
       muscle_group_id: 4,
       image: 'https://img1.ibay.com.mv/is1/full/2018/05/item_2202954_922.jpg'
+    },
+    {
+      name: 'Crunches',
+      muscle_group_id: 5,
+      image: 'https://cdn2.coachmag.co.uk/sites/coachmag/files/images/dir_30/mens_fitness_15427.jpg'
+    },
+    {
+      name: 'Decline Sit-ups',
+      muscle_group_id: 5,
+      image: 'https://www.muscleandfitness.com/wp-content/uploads/2018/10/abs-decline-crunch-1109.jpg?quality=86&strip=all'
+    },
+    {
+      name: 'Ab Rollers',
+      muscle_group_id: 5,
+      image: 'https://gl-images.condecdn.net/image/q4Ax3jYrmLY/crop/1440/0.5235602094240838/f/gettyimages-1304847564_sf.jpg'
+    },
+    {
+      name: 'Kettlebell Oblique Crunches',
+      muscle_group_id: 5,
+      image: 'https://d3h9ln6psucegz.cloudfront.net/wp-content/uploads/2016/05/Tip-Replace-the-Abdominal-Side-Bend.jpg'
+    },
+    {
+      name: 'Dumbbell Curls',
+      muscle_group_id: 6,
+      image: 'https://bodybuilding-wizard.com/wp-content/uploads/2014/05/dumbbell-supinating-biceps-curls.jpg'
+    },
+    {
+      name: 'Kettlebell Curls',
+      muscle_group_id: 56,
+      image: 'https://scarysymptoms.com/wp-content/uploads/2021/01/Kettlebell-curl-Freepik.com-pressfoto-1-300x200.jpg'
     },
   ])
 
