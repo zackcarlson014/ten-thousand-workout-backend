@@ -94,7 +94,7 @@
       image: 'https://images.pond5.com/bent-over-two-dumbbell-row-footage-079865734_iconl.jpeg'
     },
     {
-      name: 'One-Handed Bentover Rows',
+      name: 'Lawn Mowers',
       muscle_group_id: 2,
       image: 'https://ak.picdn.net/shutterstock/videos/25966988/thumb/10.jpg?ip=x480'
     },
@@ -184,7 +184,7 @@
       image: 'https://gl-images.condecdn.net/image/q4Ax3jYrmLY/crop/1440/0.5235602094240838/f/gettyimages-1304847564_sf.jpg'
     },
     {
-      name: 'Kettlebell Oblique Crunches',
+      name: 'KB Oblique Crunches',
       muscle_group_id: 5,
       image: 'https://d3h9ln6psucegz.cloudfront.net/wp-content/uploads/2016/05/Tip-Replace-the-Abdominal-Side-Bend.jpg'
     },
@@ -234,4 +234,3 @@
       image: 'https://cdn.totalworkout.fitness/160725/exercise/1280/frame/10006.3.jpg'
     },
   ])
-
