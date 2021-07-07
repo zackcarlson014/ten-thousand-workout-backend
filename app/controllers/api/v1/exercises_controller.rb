@@ -1,4 +1,5 @@
 class Api::V1::ExercisesController < ApplicationController
+  before_action :authorize_access_request!, except: [:show, :index, :create]
 
   def index
     exercises = Exercise.all
@@ -13,18 +14,6 @@ class Api::V1::ExercisesController < ApplicationController
   def create
     exercise = Exercise.create!(exercise_params)
     render json: exercise
-  end
-
-  def update
-    exercise = Exercise.find(params[:id])
-    exercise.update!(exercise_params)
-    render json: exercise, except: [:created_at, :updated_at]
-  end
-
-  def destroy
-    exercise = Exercise.find(params[:id])
-    exercise.destroy
-    render json: exercise, except: [:created_at, :updated_at]
   end
 
   private

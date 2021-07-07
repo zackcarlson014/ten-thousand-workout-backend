@@ -7,8 +7,10 @@ Rails.application.routes.draw do
       resources :workouts
       resources :exercises
       resources :users
-      post '/auth', to: 'auth#create'
-      get '/current_user', to: 'auth#show'
-    end
+    end  
+    post 'refresh', controller: :refresh, action: :create
+    post 'signin', controller: :signin, action: :create
+    post 'signup', controller: :signup, action: :create
+    delete 'signin', controller: :signin, action: :destroy
   end
 end

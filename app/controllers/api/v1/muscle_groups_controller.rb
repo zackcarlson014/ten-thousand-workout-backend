@@ -1,4 +1,5 @@
 class Api::V1::MuscleGroupsController < ApplicationController
+  before_action :authorize_access_request!, except: [:show, :index, :create]
 
   def index
     muscle_groups = MuscleGroup.all_groups

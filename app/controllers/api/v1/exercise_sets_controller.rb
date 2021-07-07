@@ -1,4 +1,5 @@
 class Api::V1::ExerciseSetsController < ApplicationController
+  before_action :authorize_access_request!, except: [:show, :index, :create, :update, :destroy]
 
   def index
     exercise_sets = ExerciseSet.all

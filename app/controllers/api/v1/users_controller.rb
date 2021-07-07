@@ -1,4 +1,5 @@
 class Api::V1::UsersController < ApplicationController
+  before_action :authorize_access_request!, except: [:show, :index, :create, :edit, :update, :destroy]
 
   wrap_parameters :user, include: [:username, :firstname, :lastname, :height, :weight, :age, :bodyfat, :bmi, :password]
 
